@@ -9,6 +9,7 @@ public class Main extends JFrame {
         setTitle("Theme Switcher");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
+        getContentPane().setBackground(light);
         setSize(400, 250);
         setLayout(null);
         setVisible(true);
